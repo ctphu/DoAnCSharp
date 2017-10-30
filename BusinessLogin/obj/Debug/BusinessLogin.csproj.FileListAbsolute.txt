@@ -1,0 +1,9 @@
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\bin\Debug\BusinessLogin.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\bin\Debug\BusinessLogin.pdb
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\bin\Debug\BusinessObject.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\bin\Debug\DataAsset.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\bin\Debug\BusinessObject.pdb
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\bin\Debug\DataAsset.pdb
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\obj\Debug\BusinessLogin.csprojResolveAssemblyReference.cache
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\obj\Debug\BusinessLogin.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessLogin\obj\Debug\BusinessLogin.pdb

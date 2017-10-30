@@ -1,0 +1,1 @@
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\obj\Debug\DataAsset.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\bin\Debug\DataAsset.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\bin\Debug\DataAsset.pdb
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\bin\Debug\BusinessObject.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\bin\Debug\BusinessObject.pdb
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\obj\Debug\DataAsset.dll
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\obj\Debug\DataAsset.pdb
+d:\document\visual studio 2015\Projects\ExchangeManagement\DataAsset\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
