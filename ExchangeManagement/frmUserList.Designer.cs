@@ -30,8 +30,8 @@
         {
             this.dgvUserList = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tbUsername = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.btUpdate = new System.Windows.Forms.Button();
             this.btAddUser = new System.Windows.Forms.Button();
@@ -56,6 +56,7 @@
             this.dgvUserList.Name = "dgvUserList";
             this.dgvUserList.Size = new System.Drawing.Size(674, 253);
             this.dgvUserList.TabIndex = 0;
+            this.dgvUserList.CurrentCellChanged += new System.EventHandler(this.dgvUserList_CurrentCellChanged);
             // 
             // groupBox1
             // 
@@ -67,6 +68,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Username";
             // 
+            // tbUsername
+            // 
+            this.tbUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbUsername.Location = new System.Drawing.Point(6, 19);
+            this.tbUsername.Name = "tbUsername";
+            this.tbUsername.Size = new System.Drawing.Size(153, 20);
+            this.tbUsername.TabIndex = 0;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.tbPassword);
@@ -76,15 +86,6 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Password";
-            // 
-            // tbUsername
-            // 
-            this.tbUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbUsername.Location = new System.Drawing.Point(6, 19);
-            this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(153, 20);
-            this.tbUsername.TabIndex = 0;
             // 
             // tbPassword
             // 

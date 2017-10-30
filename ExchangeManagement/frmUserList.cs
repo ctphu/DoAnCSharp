@@ -27,6 +27,7 @@ namespace ExchangeManagement
 
         List<UserBO> listUser;
         BindingSource bsUser;
+        UserBO userCurrent;
 
         public frmUserList()
         {
@@ -39,6 +40,32 @@ namespace ExchangeManagement
             listUser = userBL.GetUserList();
             bsUser = new BindingSource { DataSource = listUser };
             dgvUserList.DataSource = bsUser;
+        }
+
+        private void SetButtonEnable(bool pbIsEnable)
+        {
+            btAddUser.Enabled = pbIsEnable;
+            btDeleteUser.Enabled = pbIsEnable;
+            btUpdate.Enabled = pbIsEnable;
+        }
+
+        private void dgvUserList_CurrentCellChanged(object sender, EventArgs e)
+        {
+            if (dgvUserList.CurrentRow != null)
+            {
+                userCurrent = (UserBO)dgvUserList.CurrentRow.DataBoundItem;
+                tbUsername.Text = userCurrent.Username;
+                tbPassword.Text = userCurrent.Password;
+                cbIsDisable.Checked = userCurrent.IsDisable;
+                if (userCurrent.UserID == ((frmMain)this.MdiParent).UserID)
+                {
+                    SetButtonEnable(false);
+                }
+                else
+                {
+                    SetButtonEnable(true);
+                }
+            }
         }
     }
 }
