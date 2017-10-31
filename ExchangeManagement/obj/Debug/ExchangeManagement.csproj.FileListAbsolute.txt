@@ -16,3 +16,4 @@ d:\document\visual studio 2015\Projects\ExchangeManagement\ExchangeManagement\ob
 d:\document\visual studio 2015\Projects\ExchangeManagement\ExchangeManagement\obj\Debug\ExchangeManagement.frmLogin.resources
 d:\document\visual studio 2015\Projects\ExchangeManagement\ExchangeManagement\obj\Debug\ExchangeManagement.frmMain.resources
 d:\document\visual studio 2015\Projects\ExchangeManagement\ExchangeManagement\obj\Debug\ExchangeManagement.frmUserList.resources
+d:\document\visual studio 2015\Projects\ExchangeManagement\ExchangeManagement\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
