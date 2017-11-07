@@ -2,3 +2,4 @@ d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessObject\bin\De
 d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessObject\bin\Debug\BusinessObject.pdb
 d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessObject\obj\Debug\BusinessObject.dll
 d:\document\visual studio 2015\Projects\ExchangeManagement\BusinessObject\obj\Debug\BusinessObject.pdb
+d:\Document\Visual Studio 2015\Projects\ExchangeManagement\BusinessObject\obj\Debug\BusinessObject.csprojResolveAssemblyReference.cache

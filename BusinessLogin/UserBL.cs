@@ -22,6 +22,7 @@ namespace BusinessLogic
                 throw;
             }
         }
+
         public ResultMessageBO CheckUserLoginBL(UserBO objUserBL)
         {
             try
@@ -40,6 +41,18 @@ namespace BusinessLogic
             {
                 UserDA objUserda = new UserDA(); // Creating object of Dataccess
                 return objUserda.GetUserList(); // calling Method of DataAccess
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public List<UserPermissionBO> GetPermission(int piUserID, string psModule)
+        {
+            try
+            {
+                UserDA objUserda = new UserDA(); // Creating object of Dataccess
+                return objUserda.GetPermission(piUserID,psModule); // calling Method of DataAccess
             }
             catch
             {

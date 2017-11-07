@@ -67,8 +67,9 @@
             // permissionListToolStripMenuItem
             // 
             this.permissionListToolStripMenuItem.Name = "permissionListToolStripMenuItem";
-            this.permissionListToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.permissionListToolStripMenuItem.Text = "&Permission List";
+            this.permissionListToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.permissionListToolStripMenuItem.Text = "User &Permission";
+            this.permissionListToolStripMenuItem.Click += new System.EventHandler(this.permissionListToolStripMenuItem_Click);
             // 
             // windowToolStripMenuItem
             // 
@@ -87,6 +88,7 @@
             this.Name = "frmMain";
             this.Text = "Exchange Management";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
