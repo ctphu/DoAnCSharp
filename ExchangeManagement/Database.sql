@@ -19,7 +19,9 @@ GO
 CREATE TABLE [dbo].[Permission](
 	[ID] [int] IDENTITY(1,1) NOT NULL,
 	[Code] [varchar](50) NOT NULL,
+	[Module] [varchar](50) NOT NULL,
 	[Name] [nvarchar](255) NOT NULL,
+
 	[Description] [nvarchar](max) NULL,
  CONSTRAINT [PK_Permission] PRIMARY KEY CLUSTERED 
 (
@@ -229,5 +231,19 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 	SELECT * FROM [User]
+END
+GO
+CREATE PROCEDURE [dbo].[usp_USER_GetUserPermision]
+	@piUserID int,
+	@psModule varchar(50)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	--EXEC [dbo].[usp_USER_GetUserPermision] 1, 'MAIN'
+	
+	SET NOCOUNT ON;
+	SELECT UP.UserID, P.Code as PermissionCode FROM UserPermission UP JOIN Permission P ON P.ID = UP.PermissionID
+	WHERE UP.UserID = @piUserID AND P.Module = @psModule
 END
 GO
